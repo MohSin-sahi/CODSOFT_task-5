@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.heading--1 {
+  color: #0000ff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem; }
+
+.container {
+  background-color: #000;
+  max-width: 40rem;
+  color: #17d4fe;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0rem 0.7rem 1.3rem rgba(0, 0, 0, 0.2); }
+
+.day {
+  font-size: 1.6rem;
+  font-weight: 600; }
+
+.time {
+  font-size: 3rem;
+  font-weight: 700; }
+
+.date {
+  font-size: 1.6rem;
+  font-weight: 600; }
